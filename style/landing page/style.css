@@ -180,6 +180,27 @@ a.signup {
   gap: 1rem;
 }
 
+.main_illustration_wrapper .hero {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.main_illustration_wrapper .stars {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.main_illustration_wrapper .checkmark {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
 .main_illustration_wrapper main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -207,7 +228,7 @@ a.signup {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: .5rem;
+  gap: 1rem;
   text-align: center;
 }
 
@@ -257,7 +278,6 @@ a.signup {
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
     padding: 0 9rem 3rem 9rem;
-    gap: 0;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -267,9 +287,6 @@ a.signup {
   }
   .main_illustration_wrapper .hero {
     width: 50%;
-  }
-  .main_illustration_wrapper main {
-    gap: 1rem;
   }
   .main_illustration_wrapper main .rating {
     display: -webkit-box;
@@ -297,7 +314,6 @@ a.signup {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    gap: 1rem;
   }
   .main_illustration_wrapper main .button_link_wrapper button {
     padding: 1rem;
@@ -322,6 +338,9 @@ a.signup {
   }
   .main_illustration_wrapper main .button_link_wrapper a {
     font-size: 1.1rem;
+  }
+  .main_illustration_wrapper main .button_link_wrapper button {
+    font-size: 1rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
