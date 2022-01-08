@@ -17,6 +17,10 @@
             align-items: center;
             gap: .5rem;
 
+            img {
+                user-select: none;
+            }
+
             .name_wrapper {
                 display: flex;
                 flex-direction: column;
