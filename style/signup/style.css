@@ -120,5 +120,58 @@ form .submit {
   font-weight: 700;
   padding: .75rem;
   border-radius: .5rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1023px) {
+  section {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .form_illustration_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+  }
+  .main_header_wrapper {
+    height: 100vh;
+    display: -ms-grid;
+    display: grid;
+    place-content: center;
+    width: 50%;
+  }
+  section {
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    background: #4d13d1;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1rem;
+  }
+  section p {
+    width: 50%;
+  }
+  section img {
+    width: 80%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
