@@ -42,6 +42,20 @@ main {
   gap: 2rem;
 }
 
+main .already {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: .5rem;
+}
+
+main .already a {
+  text-decoration: none;
+}
+
 .logo {
   font-weight: 700;
   font-size: 1.5rem;
@@ -145,6 +159,12 @@ form .submit {
     display: grid;
     place-content: center;
     width: 50%;
+  }
+  .main_header_wrapper form {
+    gap: 1.5rem;
+  }
+  .main_header_wrapper form input {
+    padding: 1rem;
   }
   section {
     width: 50%;

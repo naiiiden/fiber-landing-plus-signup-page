@@ -7,6 +7,16 @@ main {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+
+    .already {
+        display: flex;
+        justify-content: center;
+        gap: .5rem;
+
+        a {
+            text-decoration: none;
+        }
+    }
 }
 
 .logo {
@@ -82,7 +92,16 @@ form {
         display: grid;
         place-content: center;
         width: 50%;
+        
+        form {
+            gap: 1.5rem;
+
+            input {
+                padding: 1rem;
+            }
+        }
     }
+
     
     section {
         width: 50%;
