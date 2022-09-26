@@ -169,7 +169,7 @@ a.signup {
   gap: 1rem;
   text-align: center;
 }
-.main_illustration_wrapper main .button_link_wrapper button {
+.main_illustration_wrapper main .button_link_wrapper .sgnup {
   font-weight: 700;
   border: none;
   font-family: inherit;
@@ -178,6 +178,7 @@ a.signup {
   padding: 0.75rem;
   border-radius: 0.5rem;
   cursor: pointer;
+  text-decoration: none;
 }
 .main_illustration_wrapper main .button_link_wrapper a {
   color: #4d13d1;
@@ -222,7 +223,7 @@ a.signup {
     flex-direction: row;
     align-items: center;
   }
-  .main_illustration_wrapper main .button_link_wrapper button {
+  .main_illustration_wrapper main .button_link_wrapper .sgnup {
     padding: 1rem;
   }
   .main_illustration_wrapper main .checkmarks_wrapper {
@@ -242,7 +243,7 @@ a.signup {
   .main_illustration_wrapper main .button_link_wrapper a {
     font-size: 1.1rem;
   }
-  .main_illustration_wrapper main .button_link_wrapper button {
+  .main_illustration_wrapper main .button_link_wrapper .sgnup {
     font-size: 1rem;
   }
 }
