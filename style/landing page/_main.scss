@@ -16,7 +16,7 @@
         user-select: none;
     }
 
-    main {
+    .main {
         .rating {
             display: none;
         }
@@ -80,7 +80,7 @@
             width: 50%;
         }
 
-        main {
+        .main {
             .rating {
                 display: flex;
                 align-items: center;
@@ -114,7 +114,7 @@
 
 @media screen and (min-width: 1360px) {
     .main_illustration_wrapper {
-        main {
+        .main {
             gap: 1.25rem;
 
             h1 {
