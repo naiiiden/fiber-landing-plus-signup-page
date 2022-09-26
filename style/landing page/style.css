@@ -320,7 +320,8 @@ a.signup {
     flex-direction: column;
     gap: 1rem;
   }
-  .diversifysection_padding .diversifysection_wrapper section button {
+  .diversifysection_padding .diversifysection_wrapper section a {
+    text-align: center;
     border: none;
     background: #fff;
     color: #4d13d1;
@@ -368,7 +369,7 @@ a.signup {
   .diversifysection_padding .diversifysection_wrapper section h2 {
     font-size: 2rem;
   }
-  .diversifysection_padding .diversifysection_wrapper section button {
+  .diversifysection_padding .diversifysection_wrapper section a {
     border: none;
     background: #fff;
     color: #4d13d1;
