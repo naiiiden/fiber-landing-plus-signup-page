@@ -428,14 +428,15 @@ a.signup {
   color: #4d13d1;
   font-weight: 700;
 }
-.articles_container article button {
+.articles_container article a, .articles_container article button {
   border: 1px solid #cccccc;
   background: none;
   color: #4d13d1;
   font-weight: 700;
+  font-size: 0.9rem;
   padding: 0.75rem;
   border-radius: 0.5rem;
-  cursor: pointer;
+  text-align: center;
 }
 
 @media screen and (min-width: 1024px) {

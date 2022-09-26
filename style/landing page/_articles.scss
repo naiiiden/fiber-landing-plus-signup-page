@@ -32,14 +32,15 @@
             }
         }
 
-        button {
+        a, button {
             border: 1px solid #cccccc;
             background: none;
             color: #4d13d1;
             font-weight: 700;
+            font-size: .9rem;
             padding: .75rem;
             border-radius: .5rem;
-            cursor: pointer;
+            text-align: center;
         }
     }
 }
