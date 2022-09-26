@@ -108,6 +108,7 @@ a.signup {
     padding: 3rem 9rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   header nav {
     flex-grow: 1;
@@ -118,16 +119,12 @@ a.signup {
   header nav .nav-ul {
     list-style-type: none;
     display: flex;
-  }
-  header nav .nav-ul .links_centered {
-    display: flex;
     gap: 1.5rem;
   }
-  header nav .nav-ul .signup_signin_links {
-    display: flex;
-    gap: 1.5rem;
+  header nav .nav-ul .center {
+    margin-left: auto;
   }
-  header nav .nav-ul .push {
+  header nav .nav-ul .right {
     margin-left: auto;
   }
 }

@@ -85,29 +85,25 @@ a {
         padding: 3rem 9rem;
         display: flex;
         justify-content: space-between;
+        align-items: center;
 
         nav {
             flex-grow: 1;
-
+            
             .hamburger {
                 display: none;
             }
-
+            
             .nav-ul {
                 list-style-type: none;
                 display: flex;
+                gap: 1.5rem;
 
-                .links_centered {
-                    display: flex;
-                    gap: 1.5rem;
+                .center {
+                    margin-left: auto;
                 }
 
-                .signup_signin_links {
-                    display: flex;
-                    gap: 1.5rem;
-                }
-
-                .push {
+                .right {
                     margin-left: auto;
                 }
             }
