@@ -17,7 +17,7 @@ img {
   height: auto;
 }
 
-.header_main_wrapper {
+header, .main_illustration_wrapper {
   background: #fbf8f3;
 }
 
